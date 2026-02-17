@@ -1,1 +1,57 @@
-{"metadata":{"kernelspec":{"language":"python","display_name":"Python 3","name":"python3"},"language_info":{"pygments_lexer":"ipython3","nbconvert_exporter":"python","version":"3.6.4","file_extension":".py","codemirror_mode":{"name":"ipython","version":3},"name":"python","mimetype":"text/x-python"},"kaggle":{"accelerator":"none","dataSources":[],"isInternetEnabled":true,"language":"python","sourceType":"notebook","isGpuEnabled":false}},"nbformat_minor":4,"nbformat":4,"cells":[{"cell_type":"markdown","source":"# Skin Cancer Classification (9-Class)\n\nThis project implements a 9-class skin lesion classification system using EfficientNetB3 and 5-Fold Cross Validation.\n\n## Dataset\nISIC Skin Cancer Dataset\n\n- Total images: ~2300\n- Classes: 9\n- Train/Test combined\n- Stratified 5-Fold Cross Validation used\n\n## Model\n- EfficientNetB3 (ImageNet pretrained)\n- Focal Loss\n- Controlled Fine-Tuning\n- Data Augmentation\n- Grad-CAM Visualization\n\n## Results\nAverage 5-Fold Accuracy: ~55–65%\n\n## Challenges\n- High inter-class similarity\n- Class imbalance\n- Limited dataset size\n\n## Explainability\nGrad-CAM is implemented to visualize lesion attention regions.\n\n## Future Improvements\n- Ensemble learning\n- Larger dataset\n- Advanced augmentation\n- Class rebalancing techniques\n\n","metadata":{}}]}
+# 🩺 Skin Cancer Classification (9-Class)
+
+This project implements a 9-class skin lesion classification system using EfficientNet and 5-Fold Cross Validation on the ISIC dataset.
+
+---
+
+## 📂 Dataset
+- ISIC Skin Cancer Dataset
+- Total Images: ~2300
+- Classes: 9
+- Stratified 5-Fold Cross Validation used
+
+---
+
+## 🧠 Model Architecture
+- EfficientNet (ImageNet Pretrained)
+- Fine-Tuning
+- Focal Loss
+- Data Augmentation
+- Grad-CAM for Explainability
+
+---
+
+## 📊 Results
+- Average 5-Fold Accuracy: ~55–65%
+- Best Validation Accuracy Achieved: ~XX%
+- Model Generalization Observed
+
+---
+
+## 🔥 Features
+- Controlled Fine-Tuning
+- Class Imbalance Handling
+- Grad-CAM Visualization
+- Cross Validation Training
+
+---
+
+## 📌 Challenges
+- High inter-class similarity
+- Class imbalance
+- Limited dataset size
+
+---
+
+## 🚀 Future Improvements
+- Ensemble learning
+- Larger dataset
+- Advanced augmentation
+- Better class rebalancing
+
+---
+
+## 👨‍💻 Author
+Arnav Singh  
+B.Tech Electronics & Computer Science  
+KIIT University  
